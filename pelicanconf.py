@@ -14,8 +14,9 @@ DEFAULT_LANG = u'en'
 
 # Feed generation is usually not desired when developing
 FEED_DOMAIN = SITEURL
+RSS_FEED_SUMMARY_ONLY = False
 FEED_ALL_RSS='feeds/all.rss.xml'
-CATEGORY_FEED_RSS='feeds/%s.rss.xml'
+TAG_FEED_RSS='feeds/%s.rss.xml'
 FEED_ALL_ATOM = None
 CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
@@ -28,6 +29,9 @@ THEME='Flex'
 LINKS = (('Outreachy', 'https://www.outreachy.org/'),
          ('OpenStack', 'https://www.openstack.org'),)
 
+CONTACT = (('IRC freenode','ajya'),
+	   ('Matrix','@ajya:matrix.org'))
+
 # Social widget
 #SOCIAL = (('You can add links in your config file', '#'),
 #          ('Another social link', '#'),)
@@ -35,4 +39,4 @@ LINKS = (('Outreachy', 'https://www.outreachy.org/'),
 DEFAULT_PAGINATION = 10
 
 # Uncomment following line if you want document-relative URLs when developing
-RELATIVE_URLS = True
+#RELATIVE_URLS = True
