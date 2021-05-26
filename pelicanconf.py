@@ -29,7 +29,7 @@ THEME='Flex'
 LINKS = (('Outreachy', 'https://www.outreachy.org/'),
          ('OpenStack', 'https://www.openstack.org'),)
 
-CONTACT = (('IRC freenode','ajya'),
+CONTACT = (('IRC OFTC','ajya'),
 	   ('Matrix','@ajya:matrix.org'))
 
 # Social widget
